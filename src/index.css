@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --color-primary: #FACC15; /* Yellow-400 */
+  --color-maroon: #800000;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply font-sans bg-white text-black;
+  }
+}
+
+@layer utilities {
+  .yellow-glow {
+    box-shadow: 0 0 20px rgba(250, 204, 21, 0.3);
+  }
+}

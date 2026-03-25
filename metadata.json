@@ -1,0 +1,5 @@
+{
+  "name": "Hi-Beam Car Rental Cebu",
+  "description": "Modern, affordable self-drive car rentals in Bogo City and Cebu. Drive your way with Hi-Beam.",
+  "requestFramePermissions": ["geolocation"]
+}
